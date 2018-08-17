@@ -1,7 +1,7 @@
 # Coma Bem - Restaurante
 Demonstração de integração WebApi e Angular 4
 
-## Api - .Net Core 2.1
+## Api - [.Net Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1)
 Para emular a api utilize o seguinte comando no diretório api\source:
 ```sh
 $ dotnet run 
