@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="card-header">Deletar de Restaurante</div>
+  <div class="card-body">
+    <p>Tem certeza que deseja deletar o restaurante
+      <b>{{nome}}</b> e todos os seus pratos?</p>
+
+    <button type="button" class="btn btn-secondary btn-sm" [routerLink]="['/restaurante/']">Não</button>
+    <button type="button" class="btn btn-primary btn-sm" (click)="excluir()">Sim</button>
+  </div>
+</div>

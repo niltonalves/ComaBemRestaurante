@@ -1,0 +1,28 @@
+<div class="card">
+  <div class="card-header">Cadastro de Prato</div>
+  <div class="card-body">
+    <form [formGroup]="formCadastro" *ngIf="prato">
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Restaurante</label>
+        <div class="col-sm-10">
+          <select formControlName='restaurante' class="form-control" [(ngModel)]="prato.restauranteID">
+            <option *ngFor="let item of restaurantes" [value]="item.id">
+              {{item.nome}}
+            </option>
+          </select>
+          <small *ngIf="submetido && f.restaurante.errors" class="form-text text-danger">Restaurante obrigatório</small>
+
+        </div>
+      </div>
+      <div class="form-group row">
+        <label class="col-sm-2 col-form-label">Nome</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" [(ngModel)]="prato.nome" formControlName="nome" required placeholder="Digite o nome do prato">
+          <small *ngIf="submetido && f.nome.errors" class="form-text text-danger"> Nome obrigatório</small>
+        </div>
+      </div>
+      <button type="button" class="btn btn-second" [routerLink]="['/prato/']">Cancelar</button>
+      <button type="button" class="btn btn-primary" (click)="salvar()">Salvar</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="card-header">Deletar de Prato</div>
+    <div class="card-body">
+      <p>Tem certeza que deseja deletar o prato
+        <b>{{nome}}</b>?</p>
+
+      <button type="button" class="btn btn-secondary btn-sm" [routerLink]="['/prato/']">Não</button>
+      <button type="button" class="btn btn-primary btn-sm" (click)="excluir()">Sim</button>
+    </div>
+  </div>
