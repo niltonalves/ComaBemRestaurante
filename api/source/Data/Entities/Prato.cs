@@ -13,6 +13,8 @@ namespace source.Data.Entities
         [MaxLength(50)]
         public string Nome { get; set; }
 
+        [Required]
+        public decimal Preco { get; set; }
 
         public virtual int? RestauranteID { get; set; }
 
