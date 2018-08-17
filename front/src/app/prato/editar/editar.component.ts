@@ -40,6 +40,7 @@ export class PratoEditarComponent implements OnInit {
   formValidator() {
     this.formCadastro = this.formBuilder.group({
       nome: ['', [Validators.required, Validators.minLength(2)]],
+      preco: ['', [Validators.required, Validators.minLength(2)]],
       restaurante: new FormControl(null,  Validators.required)
     });
   }

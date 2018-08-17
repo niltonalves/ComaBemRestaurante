@@ -18,6 +18,7 @@
             <td>#</td>
             <td>Restaurante</td>
             <td>Nome</td>
+            <td>Preço</td>
           </tr>
         </thead>
         <tbody>
@@ -36,6 +37,9 @@
             </td>
             <td>
               {{item.nome}}
+            </td>
+            <td>
+              {{item.preco | currency:'BRL':true}}
             </td>
           </tr>
         </tbody>

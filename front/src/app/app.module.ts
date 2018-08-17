@@ -13,7 +13,7 @@ import { RestauranteEditarComponent } from './restaurante/editar/editar.componen
 import { PratoEditarComponent } from './prato/editar/editar.component';
 import { RestauranteDeletarComponent } from './restaurante/deletar/deletar.component';
 import { PratoDeletarComponent } from './prato/deletar/deletar.component';
-
+import { CurrencyMaskModule } from 'ng2-currency-mask';
 
 @NgModule({
   declarations: [
@@ -31,7 +31,8 @@ import { PratoDeletarComponent } from './prato/deletar/deletar.component';
     RouterModule.forRoot(AppRoutes),
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CurrencyMaskModule
   ],
   providers: [],
   bootstrap: [
