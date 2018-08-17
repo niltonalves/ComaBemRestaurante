@@ -6,7 +6,11 @@ Para emular a api utilize o seguinte comando no diretório api\source:
 ```sh
 $ dotnet run 
 ```
-Este comando irá emular api no seguinte endereço: https://localhost:5001/api/
+Este comando irá emular api no seguinte endereço: 
+
+```sh
+http://localhost:5001/api/
+```
 
 ## Front - [Angular](https://angular.io/) 4.0 / [Node.js](https://nodejs.org/) 10.8.0 / [NPM.js](https://www.npmjs.com/)  6.3.0
 Para emular o front-end será necessário realizar os seguintes comandos:
