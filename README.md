@@ -1,4 +1,4 @@
-# ComaBemRestaurante
+# Coma Bem - Restaurante
 Demonstração de integração WebApi e Angular 4
 
 ## Api - .Net Core 2.1
