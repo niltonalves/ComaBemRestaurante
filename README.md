@@ -13,7 +13,7 @@ Para emular o front-end será necessário realizar os seguintes comandos:
 1) npm install 
 2) ng serve
 
-O projeto de front irá emular no seguinte endeço: http://localhost:4200/
-Após isto, faça uso do ambiente de cadastro de Restaurantes e pratos.
+O projeto de front irá emular no seguinte endereço: http://localhost:4200/.
+Após isso, faça uso do ambiente de cadastro de Restaurantes e Pratos.
 
 Dúvidas utilize a aba Issues.
