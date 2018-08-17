@@ -3,8 +3,9 @@ Demonstração de integração WebApi e Angular 4
 
 ## Api - .Net Core 2.1
 Para emular a api utilize o seguinte comando no diretório api\source:
-dotnet run 
-
+```sh
+$ dotnet run 
+```
 Este comando irá emular api no seguinte endereço: https://localhost:5001/api/
 
 ## Front - Angular 4.0 / Node 10.8.0 / NPM 6.3.0
