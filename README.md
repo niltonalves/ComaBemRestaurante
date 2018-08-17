@@ -8,7 +8,7 @@ dotnet run
 Este comando irá emular api no seguinte endereço: https://localhost:5001/api/
 
 ## Front - Angular 4.0 / Node 10.8.0 / NPM 6.3.0
-Para emuldar o front-end será necessário realizar os seguintes comandos:
+Para emular o front-end será necessário realizar os seguintes comandos:
 
 1) npm install 
 2) ng serve
