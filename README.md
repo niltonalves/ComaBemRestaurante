@@ -2,7 +2,7 @@
 :beginner: Demonstração de integração WebApi e Angular 4
 
 ## Api - [.Net Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1)
-:computer: Para emular a api no terminal de sua preferência execute o comando:
+:computer: Para emular a api, no terminal de sua preferência execute o comando:
 ```sh
 $ cd api/source/ && dotnet run
 ```
