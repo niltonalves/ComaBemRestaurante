@@ -27,4 +27,4 @@ http://localhost:4200/
 
 Após isso, faça uso do ambiente de cadastro de Restaurantes e Pratos. :spaghetti: :pizza: :fries: :beers:
 
-Dúvidas? Utilize a aba Issues.
+Dúvidas? Utilize a aba [Issues](issues).
